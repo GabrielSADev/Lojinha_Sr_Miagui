@@ -1,0 +1,28 @@
+body{
+    font: normal 15px Arial;
+
+}
+
+.produto{
+    border: 3px solid rgb(91, 91, 218);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    width: 260px;
+    height: 320px;
+}
+#itens_div{
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 200px;
+}

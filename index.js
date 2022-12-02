@@ -55,7 +55,7 @@ function inicializarLoja (){
     ITENS_LOJA.map((val)=>{
         Contitens_div.innerHTML += `
             <div class="produto">
-            <img src="+val.url_img+">
+            <img src="`+val.url_img+`">
                 <p><strong>`+val.nome+`</strong></p>
                 <p id="preco"><strong>preço:</strong> `+val.preco+`</p>
                 <p id="descr"><strong>descrição:<br></strong>`+val.descricao+` </p>
